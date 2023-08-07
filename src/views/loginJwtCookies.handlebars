@@ -1,0 +1,25 @@
+{{! //////////////////////////////////////////////////////////////// }}
+{{!  /src/views/recovery.handlebars -  HTML con sintaxis de Handlebars  }}
+{{! //////////////////////////////////////////////////////////////// }}
+
+<html>
+  <head>
+    {{!--     <title>{{title}}</title> --}}
+    {{!--     <link rel='stylesheet' href='css/{{style}}' /> --}}
+  </head>
+  <body>
+    <div class='container'>
+      <div class='d-flex justify-content-center'>
+        <div class='col-6'>
+          <div class='card m-5 p-5'>
+            <div class='d-flex justify-content-center'>
+              <button style='cursor: pointer;' class='btn btn-success' id='fetchButton'>Realizar login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{!     <script src='/socket.io/socket.io.js'></script> }}
+    <script src='/js/loginJwtCookies/index.js'></script>
+  </body>
+</html>

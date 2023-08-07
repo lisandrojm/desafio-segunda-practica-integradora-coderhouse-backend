@@ -5,6 +5,10 @@
 const sessionsServices = require('../sessionsServices/sessionsServices');
 
 class SessionsController {
+  getCurrentSession = async (req, res) => {
+    const userData = await sessionsServices.getCurrentSession(req, res);
+    return res.render('current', userData);
+  };
   getUserSession = async (req, res) => {
     const userData = await sessionsServices.getUserSession(req, res);
     return res.render('profile', userData);

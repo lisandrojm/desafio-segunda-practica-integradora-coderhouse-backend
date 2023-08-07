@@ -13,5 +13,6 @@ module.exports = (app) => {
   router.get('/admin', authPrivate, sessionsController.getAdminSession);
   router.get('/user', authPublic, sessionsController.getUserSession);
   router.get('/session', sessionsController.getSession);
+  router.get('/current', sessionsController.getCurrentSession);
   router.get('/deletesession', sessionsController.deleteSession);
 };

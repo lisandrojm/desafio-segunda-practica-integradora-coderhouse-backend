@@ -3,6 +3,15 @@
 /* ************************************************************************** */
 
 class SessionsServices {
+  getCurrentSession = async (req, res) => {
+    try {
+      const userData = req.session.user || {};
+      return { success: true, user: userData, title: 'Perfil', style: 'index.css' };
+    } catch (error) {
+      return { success: false, error: 'Error en Handlebars getUserSession' };
+    }
+  };
+
   getUserSession = async (req, res) => {
     try {
       const userData = req.session.user || {};
