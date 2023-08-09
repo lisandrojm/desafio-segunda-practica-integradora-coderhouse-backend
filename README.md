@@ -9,8 +9,7 @@ Este repositorio contiene la segunda práctica integradora con las siguientes ca
 - last_name:String,
 
 - email:String (único)
-  estrategias de Passport para
-  que funcionen con este modelo de usuarios
+
 - age:Date,
 
 - password:String(Hash)
