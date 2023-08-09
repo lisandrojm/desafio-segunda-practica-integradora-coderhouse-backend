@@ -56,7 +56,7 @@ class Server {
     const handlebars = expressHandlebars.create({
       defaultLayout: 'main',
       helpers: {
-        calculateAge: calculateAge, // Registrar el helper calculateAge
+        calculateAge: calculateAge,
       },
     });
     this.app.set('views', path.join(__dirname, 'views'));

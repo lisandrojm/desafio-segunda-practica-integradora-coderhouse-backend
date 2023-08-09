@@ -8,6 +8,7 @@ class CartsController {
   getCarts = async (req, res) => {
     return await cartsServices.getCarts(res);
   };
+
   addCart = async (req, res) => {
     return await cartsServices.addCart(res);
   };
