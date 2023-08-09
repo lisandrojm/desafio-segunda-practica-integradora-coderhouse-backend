@@ -4,23 +4,19 @@ Este repositorio contiene la segunda práctica integradora con las siguientes ca
 
 ### User Model:
 
-- first_name:String,
+- first_name: String,
 
-- last_name:String,
+- last_name: String,
 
-- email:String (único)
+- email: String (único)
 
-- age:Date,
+- age: Date,
 
-- password:String(Hash)
+- password: String(Hash)
 
-- cart:Id con referencia a Carts
+- cart: Id con referencia a Carts
 
-- role:String(default:’user’)
-
-- Hasheo de contraseña utilizando bcrypt.
-- Implementación de passport, tanto para register como para login.
-- Implementación del método de autenticación de GitHub a la vista de login.
+- role: String(default:’user’)
 
 ### Passport:
 
