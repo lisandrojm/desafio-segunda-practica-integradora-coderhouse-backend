@@ -101,7 +101,11 @@ adminCod3r123
 
 ## Video Testing
 
-Video
+
+
+https://github.com/lisandrojm/desafio_segunda-practica-integradora/assets/35199683/13ca850f-dbc3-4661-ad3e-0a6bc7353287
+
+
 
 ## Estructura del proyecto (directorios relevantes para el desafío)
 
