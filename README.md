@@ -24,7 +24,7 @@ Este repositorio contiene la segunda práctica integradora con las siguientes ca
 
 ### Login
 
-- Sistema de Login del usuario que trabaja con sessions.
+- Sistema de Login del usuario que trabaja con session.
 
 ### Router /api/sessions/current
 
@@ -101,11 +101,7 @@ adminCod3r123
 
 ## Video Testing
 
-
-
-https://github.com/lisandrojm/desafio_segunda-practica-integradora/assets/35199683/13ca850f-dbc3-4661-ad3e-0a6bc7353287
-
-
+Video
 
 ## Estructura del proyecto (directorios relevantes para el desafío)
 
