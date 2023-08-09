@@ -16,7 +16,7 @@ Este repositorio contiene la segunda práctica integradora con las siguientes ca
 
 - cart: Id con referencia a Carts
 
-- role: String(default:’user’)
+- role: String(default:'user')
 
 ### Passport:
 
