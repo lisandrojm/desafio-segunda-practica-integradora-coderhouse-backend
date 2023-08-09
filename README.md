@@ -24,7 +24,7 @@ Este repositorio contiene la segunda práctica integradora con las siguientes ca
 
 ### Login
 
-- Sistema de Login del usuario que trabaja con session.
+- Sistema de Login del usuario que trabaja con sessions.
 
 ### Router /api/sessions/current
 
